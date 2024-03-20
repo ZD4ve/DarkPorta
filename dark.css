@@ -1,0 +1,27 @@
+/*Jporta def col: #34495e = hsl(210, 28, 29)*/
+:root {
+    --very-dark-color: hsl(210, 28%, 5%);
+    --dark-color: hsl(210, 28%, 10%);
+    --light-color: hsl(210, 28%, 85%);
+}
+
+body {
+    background-color: var(--very-dark-color) !important;
+}
+
+.content {
+    background-color: var(--dark-color) !important;
+    color: var(--light-color) !important;
+}
+
+a {
+    color: goldenrod !important;
+}
+
+.btn {
+    background-image: none !important;
+    background-color: goldenrod !important;
+    color: var(--dark-color) !important;
+    border-color: var(--dark-color) !important;
+    text-shadow: none !important;
+}
