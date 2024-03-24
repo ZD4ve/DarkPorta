@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "DarkPorta",
     "description": "Dark mode for BME IIT JPorta",
-    "version": "1.0",
+    "version": "1.1",
     "action": {
         "default_icon": "logo.png"
     },
