@@ -1,0 +1,13 @@
+body {
+    background-color: var(--dark-color) !important;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    color: var(--light-color) !important;
+    margin: 0 !important;
+}
+
+pre {
+    background-color: inherit !important;
+    margin: 1em 0 1em 1.5em !important;
+    padding-left: 0.25em !important;
+    border-left: 1px solid goldenrod;
+}

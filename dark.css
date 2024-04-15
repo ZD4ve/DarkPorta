@@ -9,6 +9,7 @@
 body {
     background-color: var(--very-dark-color) !important;
 }
+
 .content,
 .modal-content {
     background-color: var(--dark-color) !important;
@@ -27,7 +28,7 @@ a {
     color: goldenrod !important;
 }
 
-.paginate_button > a, 
+.paginate_button>a,
 .btn {
     background-image: none !important;
     background-color: goldenrod !important;
@@ -35,12 +36,19 @@ a {
     border-color: var(--dark-color) !important;
     text-shadow: none !important;
 }
-.paginate_button.disabled > a {
+
+.paginate_button.disabled>a {
     opacity: 0.5;
 }
 
 
-.close > span {
+.close>span {
     color: var(--light-color) !important;
     text-shadow: none !important;
+}
+
+pre {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    background-color: var(--not-that-dark-color) !important;
+    color: var(--light-color) !important;
 }
